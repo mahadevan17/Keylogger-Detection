@@ -1,12 +1,12 @@
-keylogger detection using Machine learning
+Keylogger Detection Using Machine Learning
 
-dataset for this project can be found here : https://www.kaggle.com/datasets/subhajournal/keylogger-detection
+The dataset for this project can be found here: https://www.kaggle.com/datasets/subhajournal/keylogger-detection.
 
-This project uses a basic Machine learning approch to detect keylogging malwares.
+This project uses a basic machine learning approach to detect keylogging malware.
 
-Keylogger : a malicious program that secretly records key strokes of the the victim's machine and exfiltrates it, it can be used to steal credentials , spying etc.
+Keylogger: A malicious program that secretly records keystrokes on the victim's machine and exfiltrates them. It can be used to steal credentials, spy, etc.
 
-importance of false negatives in cybersecurity
+Importance of False Negatives in Cybersecurity
 
-one false negative (i.e. failiure of model to detect keylogger) would mean that a Malicious keylogger(or any other malware) can enter the system,networks etc and cause irreversible damage by leaking out sensitive information(Credentials, activities etc).
-that's instead of just improving the accuracy of the model its important to minimize the false negatives of the model.
+One false negative (i.e., the failure of the model to detect a keylogger) means that a malicious keylogger (or any other malware) could enter the system or network and cause irreversible damage by leaking sensitive information (credentials, activities, etc.).
+Thw aim of leveraging AI and ML in cybersecurity should be to minimize the false negatives of the model.
